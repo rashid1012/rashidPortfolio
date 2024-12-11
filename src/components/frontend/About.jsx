@@ -35,28 +35,35 @@ function About() {
                     Years
                   </p>
                 </div>
-                <div className="d-flex mt-2">
-                  <a href="#" className="btn btn-outline-danger">
-                    HTML5
-                  </a>
-                  <a href="#" className="btn btn-outline-danger">
-                    CSS3
-                  </a>
-                  <a href="#" className="btn btn-outline-danger">
-                    JAVASCRIPT
-                  </a>
-                  <a href="#" className="btn btn-outline-danger">
-                    BOOTSTRAP
-                  </a>
-                  <a href="#" className="btn btn-outline-danger">
-                    PHP
-                  </a>
-                  <a href="#" className="btn btn-outline-danger">
-                    MYSQL
-                  </a>
-                  <a href="#" className="btn btn-outline-danger">
-                    LARAVEL
-                  </a>
+                <div className="d-flex mt-2"></div>
+                <div className="hero d-flex align-items-center">
+                  <div className="container-fluid">
+                    <div className="text-center">
+                      <div className="mt-2">
+                        <a href="#" className="btn btn-outline-danger">
+                          PHP
+                        </a>
+                        <a href="#" className="btn btn-outline-danger">
+                          MYSQL
+                        </a>
+                        <a href="#" className="btn btn-outline-danger">
+                          LARAVEL
+                        </a>
+                        <a href="#" className="btn btn-outline-danger">
+                          HTML5
+                        </a>
+                        <a href="#" className="btn btn-outline-danger">
+                          CSS3
+                        </a>
+                        <a href="#" className="btn btn-outline-danger">
+                          JAVASCRIPT
+                        </a>
+                        <a href="#" className="btn btn-outline-danger">
+                          BOOTSTRAP
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
