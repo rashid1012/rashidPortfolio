@@ -1,0 +1,135 @@
+// Global Colors
+// $primary-color: #fe538d;
+$primary-color: #f9322c;
+// $secondary-color: #ffb703;
+$secondary-color: #002C54;
+$text-color: #000;
+$text-white: #ffffff;
+$dark-background: #222725;
+$light-background: #9e9b9b;
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+// font-family: "Urbanist", sans-serif;
+// font-family: "Jost", sans-serif;
+
+
+body {
+  font-family: "Jost", sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4.5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.10em;
+  font-weight: 500;
+}
+
+a {
+  font-family: "Urbanist", sans-serif;
+  text-decoration: none;
+  color: $text-color;
+  cursor: pointer;
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+  li {
+    list-style: none;
+  }
+}
+
+// Global Classes Button
+.large {
+    padding: 15px 20px;
+  }
+  .small {
+    padding: 10px 15px;
+  }
+  
+  .btn-primary {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    &:hover {
+      background-color: $secondary-color;
+      border: 1px solid $secondary-color;
+    }
+  }
+  
+  .btn-secondary {
+    background-color: $secondary-color;
+    border: 1px solid $secondary-color;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    &:hover {
+      background-color: $primary-color;
+      border: 1px solid $primary-color;
+    }
+  }
+
+// Header starts
+
+header {
+  nav {
+    .logo {
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: 500;
+      span {
+        color: $primary-color;
+      }
+    }
+
+    .nav-link {
+      font-size: 1em;
+      color: $text-color;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-left: 20px;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    .icons {
+      margin-left: 20px;
+    }
+  }
+}
+
+.section-1 {
+  .hero {
+    min-height: 624px;
+  }
+
+  span {
+    // color: $primary-color;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  h1 {
+    color: $primary-color;
+  }
+}
