@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/style.scss';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/frontend/Home';
 import About from './components/frontend/About';
 import Services from './components/frontend/Services';
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/about' element={<About/>} />
@@ -23,7 +23,7 @@ function App() {
           <Route path='/projects' element={<Projects/>} />
           <Route path='/contact_us' element={<Contact_us/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
